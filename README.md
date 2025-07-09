@@ -61,12 +61,12 @@ sudo apt-get install -y mongodb-org
 
 ### 3. Clone the Repository
 ```bash
-git clone https://github.com/clyntor/explorer.aegisum.com.git
+git clone https://github.com/clyntor/aegisum-block-explorer.git
 ```
 
 ### 4. Install Project Dependencies
 ```bash
-cd explorer.aegisum.com
+cd aegisum-block-explorer
 ```
 ```bash
 npm install --legacy-peer-deps
