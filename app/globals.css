@@ -236,8 +236,43 @@ h6 {
   color: #f1f5f9;
 }
 
+/* API Page Contrast Fixes */
+/* Better contrast for API endpoint cards */
+.api-endpoint-card {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(71, 85, 105, 0.5) !important;
+}
+
+.api-endpoint-card h3 {
+  color: #f1f5f9 !important;
+}
+
+.api-endpoint-card p {
+  color: #cbd5e1 !important;
+}
+
+/* Summary card contrast fix */
+.api-summary-card {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(59, 130, 246, 0.5) !important;
+}
+
+.api-summary-card h3 {
+  color: #93c5fd !important;
+}
+
+.api-summary-card p {
+  color: #cbd5e1 !important;
+}
+
+/* Code block contrast improvements */
+.api-code-block {
+  background-color: rgba(15, 23, 42, 0.9) !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(71, 85, 105, 0.3) !important;
+}
+
 /* MAC OS CONTRAST FIXES - Only applies to Mac browsers */
-/* Using more specific Mac detection to avoid affecting Linux/Windows */
 @supports (-webkit-appearance: none) and (not (-ms-ime-align: auto)) {
   /* Halving Countdown Card - Mac Safari only */
   .bg-gradient-to-br.from-amber-50.to-amber-100 {
