@@ -187,7 +187,7 @@ sudo certbot --nginx -d explorer.yourdomain.com
 
 ## 🔄 Updating the Explorer
 ```bash
-cd explorer.aegisum.com
+cd aegisum-block-explorer
 git pull
 npm install --legacy-peer-deps
 npm run build
@@ -196,8 +196,8 @@ pm2 restart all
 
 ## 📄 License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/clyntor/explorer.aegisum.com/blob/main/LICENSE) file for details.
+This project is under the MIT License. See the [LICENSE](https://github.com/clyntor/aegisum-block-explorer/blob/main/LICENSE) file for details.
 
 ## Support
 
-For support inquiries open an issue on GitHub or contact the Aegisum team through [mail](mailto:clynt@aegisum.com) or [discord](discord.gg/aegs).
+For support inquiries open an issue on GitHub or contact the Aegisum team through [mail](mailto:clynt@aegisum.com) or [discord](discord.gg/4E5caDKkeP).
