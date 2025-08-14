@@ -205,7 +205,7 @@ export default async function NetworkPage() {
                   </div>
                 </div>
                 <div className="space-y-1">
-                  <h3 className="text-2xl font-bold">70024</h3>
+                  <h3 className="text-2xl font-bold">70025</h3>
                   <p className="text-xs text-muted-foreground">Current protocol version</p>
                 </div>
               </CardContent>
